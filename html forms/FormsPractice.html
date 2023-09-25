@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Forms practice</h2>
+    <form action="wahaj.php">
+        <br>
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Designation: <input type="text" name="myDesignation">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Phone Number: <input type="number" name="myPhoneNumber">
+        </div>
+        <br>
+        <div>
+            <label for="eligilible">Are you eiglible?: </label>
+
+            <input type="checkbox" name="myEligibility" id="eligilible">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="myGender">Female<input type="radio" name="myGender"> other<input
+                type="radio" name="myGender">
+        </div>
+        <div>
+            <label for="car">Cars</label>
+            <select name="myCar" id="car">
+                <option value="Szki">Suzuki</option>
+                <option value="Dyhat">Dyhatsu</option>
+                <option value="Toyo" selected>Toyota</option>
+                <option value="Prad">Prado</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit now">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+    <form action="wahajkhan.php">
+        <div>
+            My name <input type="text" name="myName">
+        </div>
+        <div>
+            <button>
+            Submit now!
+            </button>
+        </div>
+    </form>
+</body>
+
+</html>

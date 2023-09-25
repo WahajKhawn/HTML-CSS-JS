@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+body{
+    font-family:"PT Sans";
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: #e3e3e3;
+}
+#nax{
+    float: left;
+    width: 40%;
+    margin-top: 80px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+#nax li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1%;
+}
+#nax a{
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+}
+#logo{
+    float: left;
+}
+#logo img{
+padding-left: 120px;
+padding-top: 70px;
+}
+.backgroundimg img{
+    width: 100%;
+}
+.icons{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 86%;
+    box-sizing: border-box;
+}
+.icons h3{
+    font-size: 137%;
+    margin-top: 7px;
+}
+.icons p{
+    margin-top: 7px;
+    padding: 5%;
+}
+.border{
+    border: 1px solid #dcdcdc;
+}
+.work{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.snaps{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.snaps h3{
+    font-size: 120%;
+    font-weight: 600;
+}
+#snap-1{
+    width: 28.5%;
+}
+#snap-2{
+    width: 28.5%;
+}
+#snap-3{
+    width: 28.5%;
+}
+.quote{
+    background-color: #efefef;
+    width: 100%;
+    height: 200px;
+}
+.quote img{
+    margin-left: 45%;
+    margin-top: 60px;
+    font-size: 200%;
+    height: 38px;
+}
+.quote p{
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(22, 22, 22);
+
+}
+.footer-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer p{
+    color: #aaaa;
+        margin-top: 20px;
+        
+}
+.footer h2{
+    margin-top: 30px;
+    font-size: 125%;
+    font-weight: 1200;
+    color: rgba(56, 55, 55, 0.667);
+}
+.footer span{
+    color: #aaaa;
+}
+#spandiv{
+    margin-top: 30px;
+}
+#detail-2{
+    width: 23%;
+    list-style: url(./tweet.png);
+}
+#detail-2 li {
+    margin-top: 20px;
+    color: #aaaa;
+}
+#detail-1{
+    width: 23%;
+    height: 300px;
+}
+#detail-3{
+    width: 23%;
+}
+#detail-4{
+    width: 23%;
+}
+#about-lastpara{
+    margin-top: 10px;
+}
+#border-line{
+    border: 1.2px solid #aaaa;
+}
+.last-line{
+    color: #aaaa;
+    list-style: url(&copy;);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

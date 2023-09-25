@@ -1,0 +1,188 @@
+<b> or <strong> for bold text
+<i> or <em> for italic text
+<br> for line break
+<hr> for horizontal line
+Ctrl+enter to start from next line(enter to jump into the new line)
+hold alt and tap wherever you wanna insert text
+Ctrl+d to replicate 
+Alt+arrowkey to drag selected text 
+ 
+Ctrl+/(to comment)
+
+<a href="google.com" target="_blank"> Go to google </a> ( This will open google in different tab)
+<a href="google.com"> Go to google </a> ( This will open google on same tab)
+
+source.unsplash.com ( for random image link, whenver you will refresh the page the image will be changed)
+
+<ul>
+<li> Wahaj </li>
+<li> Osaman </li> </ul> (It will list in site with bullet points)
+
+<ol type = "(Here you can enter type of bullet points)">
+<li> Wahaj </li>
+<li> Osaman </li>
+</ol>
+
+[HTML Entities]
+<p> this is a paragraph &lt;p&gt;</p> (Result :this is a paragraph <p>)
+
+<detail> asdfasdf </detail> (result : l> Detail(asdfasdf))
+<detail> <summary>asdfasdf</summary> 1234 </detail> (result: l> asdfasdf (1234))
+
+CSS:
+background-color: green !important; (It will pick this line is there many mentioned background colors in code)
+or jo baad mai likhogy woh property zyada order legi
+
+
+Ctrl+/(to comment)
+
+Grouping selector:
+Footer, span{
+background-color: green;
+} 
+
+
+Font-style
+Font-size
+Font-weight
+Font-family
+For Fonts selection (cssfontstack.com)
+For Fonts import (fonts.google.com)(https://www.youtube.com/watch?v=5Gz7j4gDrXM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=17)
+
+For borders:
+border-width: 4px;
+border-style: solid;
+border-color: green;
+border-radius: 3px;(To round the border's corners)
+
+border-top: 2px solid green;(To add border only on top side)
+border-right
+border-bottom
+border-left
+
+
+border-width:0; (to remove the space between divs)
+border: none(to remove border)
+
+
+border-top-left-radius(To only round border on top left)
+
+Background-image: url("asdfasdF")
+background-repeat: no repeat; (to stop the added picture to repeat)
+background-repeat: repeat-x; (only repeat picture horizontally)
+background-repeat: repeat-y; (only repeat picture vertically)
+
+background-position: center center; (Will position the background thing on center display) 
+background-position: top center; (Will position the background thing on center top display) and etc
+background-position: 124px 124px; (can also adjust like this)
+
+
+PADDING:
+
+padding: 23px 56px 6px 78px (padding: top right bottom left)(padding: y(top/bottom) x (left/right)
+
+
+box-sizing: border-box;(To fix the size of the box from spreading)
+
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+clear: both; (to avoid overlapping among floats or divs)
+
+text-align: center/left/right/justify(to align text in the box)
+
+text-decoration: none (to remove underline or any other stylings)
+list-style: none(to remove bullet point)
+
+<a href="" class"btn"> Read more </a> (to add, click to link to go on another site)
+
+cursor: pointer; (if button or links not showing any pointer display then use this)
+
+a:hover{
+color: green;(jab b iski <a> ki entity mai cursor jayega tou andr ka text ka color green hojayega)
+background-color: yellow(jab b iski <a> ki entity mai cursor jayega tou andr ka background yellow hojayega)
+
+
+a:visited{
+color: yellow(agar <a> ki link pe visit krlengy tou usky sth us k text ka color yellow hojayega)
+background-color: green((agar <a> ki link pe visit krlengy tou usky sth us k background ka color green hojayega)
+
+a:active{
+background-color: blue(jb tk ap <a> ki entity pe click hold kr k rkhengy tb tk blue color hojayega us ka)
+
+.navbar li{
+float:left (to put them all in x-axis line)
+list-style:none (to remove bullet points etc)
+
+.navbar ul{
+overflow: auto(agar li mai float use krty hain tb agar background color ka kch khrb ho tou yeh use krty hain)
+
+
+flex:
+display: flex (is command k bd container pe flex ki commands use ki jaaskti hain)
+
+flex-direction: row(default yehi hoti hai)
+flex-direction: row-reverse(left side se shuru hogi row)
+flex-direction: column
+flex-direction: column-reverse
+
+flex-wrap: wrap(agar window ka size chota krne se andr k sub containers main containers se bahr niklen tou yeh use krengy)
+flex-wrap: wrap-reverse
+
+flex-flow: (flex-direciton) space (Flex-wrap) [flex flow command mai dono ek hi jaga use ki ja skti hain]
+
+justify-content will justify the content in horizontal direction:
+justify-content: center (to center all the sub container with minimal space)
+justify-content: space-between (there will be no space in start and end and will provide equal spacing among them)
+justify-content: space-evenly (there will be spacing in start and in end and will provide equal spacing among them)
+justify-content: space-around (will apply equal space on every sub container's left and right) 
+
+align-items will justify the content in vertical direction:
+align-items: flex start (default)
+align-items: center (to center all the subcontainers(boxes) veritically in a container)
+align-items: flex end (will put all boxes in the end vertically)
+
+
+order: 5 (means this box will show in the end)
+order: 1 (means this box will show in the start)
+order: 3 (means this box will show in the middle)
+
+flex-grow: 1 or 2 or 3 .... (it will increase the size of the box along with increase of the window size or container size)
+flex-shrink: 1 or 2 or 3 ....(it will shrink or decrease the size of the box along with increase of the window size or container size)
+flex basis: 320px or etc...(when flex-direction is set to row, flex basis will control width)
+(when flex-direction is set to column, flex basis will control height)
+
+
+
+font-size: 10em (will be used in child container, it will take 10 times bigger pixel than defined pixels in parent container)
+
+height: 100vh(view port height)(means jitna bhi apko window pe height nazr arhi without scroll krey wo lele)	
+width: 100vw(view port width)(means jitna bhi apko window pe width nazr arhi without scroll krey wo lele)
+
+
+position:relative (relative to its normal position)(apni jaga se idhr udhr krne k liye lekn jitni jaga phly acquire ki hui thi wahn gap ajayega)
+position:absolute (relative to its parent position)(apni acquire jaga bhi null krdeta)
+position:fixed (scroll krty huwe wo item udhr hi rhyga screen pe sth sth nichay ayega)(used in chats)
+position:sticky ( stick hojayega ushi jaga pe)
+
+z-index will only work on the above positions.
+
+
+
+to hide element:
+visibility: hidden (it will still acquire the space)
+display:none (it will remove the element until its none)	
+
+
+
+To clip borders: https://bennettfeely.com/clippy/
+
+
+BOOTSTRAP:
+
+learned from this playlist. YT(Virtual Academy)
+https://www.youtube.com/watch?v=QE_AiPrRHZs&list=PLvV8y9QhNiW_xqiy91NdYYBNb29rQb83T&index=19
